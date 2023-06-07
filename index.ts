@@ -204,14 +204,3 @@ interface IEmployee {
   const ceo = new Employee("Mark Zuckerberg");
   const app = new EmployeeOrgApp(ceo);
   
-  console.log(app);
-  console.log("================================================");
-  app.move(5, 6);
-  console.log(app);
-  console.log("################################================");
-  app.undo();
-  console.log(app);
-  console.log("**************************************************");
-  app.redo();
-  console.log(app);
-  
